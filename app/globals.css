@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbfbfc;
+  --foreground: #111827;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --color-brand-pink: #ec3e7c;
+  --color-brand-orange: #f59e0b;
+  --color-brand-magenta: #e81cff;
+  --color-brand-dark: #0f172a;
+  
+  --color-gradient-start: #d946ef;
+  --color-gradient-mid: #ec4899;
+  --color-gradient-end: #f59e0b;
+
+  --animate-fade-in-up: fade-in-up 0.8s ease-out forwards;
+  
+  @keyframes fade-in-up {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slide-down {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  /* Light subtle dot pattern */
+  background-image: radial-gradient(circle at center, #e2e8f0 1.5px, transparent 1.5px);
+  background-size: 32px 32px;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: inherit;
+  letter-spacing: -0.025em;
+}
+
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+.delay-700 { animation-delay: 700ms; }
+.delay-800 { animation-delay: 800ms; }
