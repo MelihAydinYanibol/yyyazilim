@@ -45,7 +45,7 @@ export default function EventsPage() {
   ];
 
   return (
-    <main className="min-h-screen bg-[#FBFBFC]">
+    <main className="min-h-screen bg-[#FBFBFC] max-w-screen overflow-x-hidden">
       <Navbar />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 lg:px-24 py-20 pb-40">

@@ -12,7 +12,7 @@ interface LanguageContextType {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined);
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
-  const [language, setLanguageState] = useState<Language>("en");
+  const [language, setLanguageState] = useState<Language>("tr");
 
   // Load language from localStorage if available
   useEffect(() => {
@@ -29,7 +29,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
   };
 
   const t = (key: TranslationKeys): string => {
-    return translations[language][key] || translations["en"][key] || key;
+    return translations[language][key] || translations["tr"][key] || key;
   };
 
   return (

@@ -10,7 +10,7 @@ import AnimateOnScroll from "./components/AnimateOnScroll";
 
 export default function Home() {
   return (
-    <main className="min-h-screen font-sans bg-transparent">
+    <main className="min-h-screen font-sans bg-transparent max-w-screen overflow-x-hidden">
       {/* Navbar represents the top, usually appears immediately without delay offset or small ease */}
       <Navbar />
       <AnimateOnScroll delay={200}>

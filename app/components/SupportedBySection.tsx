@@ -16,10 +16,6 @@ export default function SupportedBySection() {
       alt: "Akdeniz University"
     },
     {
-      src: "/Sponsors/CiscoLogo.png",
-      alt: "Cisco"
-    },
-    {
       src: "/Sponsors/TeknofestLogo.png",
       alt: "Teknofest"
     },
