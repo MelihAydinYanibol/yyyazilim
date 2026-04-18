@@ -27,7 +27,7 @@ html {
 }
 
 /* Glass Effect Styles */
-.glass {
+/* .glass {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -39,7 +39,7 @@ html {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid rgba(255, 255, 255, 0.25);
-}
+} */
 
 /* Modal Animation */
 @keyframes modal-in {
