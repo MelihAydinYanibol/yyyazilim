@@ -9,13 +9,13 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "UNIDES – YZYazılım Zirvesi 2026",
+  title: "UNIDES – YYYazılım Zirvesi '26",
   description:
     "İstanbul Esenyurt Üniversitesi YYYazılım Kulübü tarafından düzenlenen Yazılım, Yapay Zeka ve Teknoloji Zirvesi.",
   keywords: ["UNIDES", "yazılım", "yapay zeka", "teknoloji", "zirve", "İstanbul", "üniversite"],
   openGraph: {
-    title: "UNIDES – YZYazılım Zirvesi 2026",
-    description: "Geleceği Kodlayanlar İçin Yazılım Zirvesi",
+    title: "UNIDES – YYYazılım Zirvesi '26",
+    description: "Geleceği Kodlayanlar İçin Teknoloji ve Yaratıcılık Zirvesi",
     type: "website",
   },
 };

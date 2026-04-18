@@ -725,9 +725,9 @@ function EtkinlikHakkindaPage() {
     {
       icon: MapPinIcon,
       title: "Konum",
-      description: "İstanbul Esenyurt Üniversitesi",
+      description: "Borusan Asım Kocabıyık Mesleki ve Teknik Anadolu Lisesi",
       isLink: true,
-      url: "https://www.google.com/maps/search/?api=1&query=Istanbul+Esenyurt+Universitesi",
+      url: "https://www.google.com/maps/place/Borusan+As%C4%B1m+Kocab%C4%B1y%C4%B1k+Mesleki+ve+Teknik+Anadolu+Lisesi/@41.0182859,28.6361706,17z/data=!3m1!4b1!4m6!3m5!1s0x14caa081d60543f1:0x94043b4f7dc377b2!8m2!3d41.0182859!4d28.6361706!16s%2Fg%2F1tfdtz39!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDQxNS4wIKXMDSoASAFQAw%3D%3D",
     },
     {
       icon: ClockIcon,
@@ -737,7 +737,7 @@ function EtkinlikHakkindaPage() {
     {
       icon: PersonGroupIcon,
       title: "Katılımcı Sayısı",
-      description: "430 Kişi",
+      description: "400+ Kişi",
     },
   ];
   return (
@@ -800,7 +800,7 @@ function TakimimizPage() {
   const teamMembers = [
     { name: "Merve Bayezit", role: "Kulüp Başkanı", department: "Bilgisayar Mühendisliği", photo: "/photos/merve.png", linkedin: "https://www.linkedin.com/in/merve-bayezit/" },
     { name: "Sümeyye Yeğen", role: "Başkan Yardımcısı", department: "Bilgisayar Mühendisliği", photo: "/photos/sümeyye.png", linkedin: "https://www.linkedin.com/in/sümeyye-yeğen"},
-    { name: "Ege Atılgan", role: "Etkinlik Koordinatörü", department: "Bilgisayar Mühendisliği", photo: "/photos/ege.png", linkedin: "https://www.linkedin.com/in/ege-at%C4%B1lgan-808840314/", github: "https://github.com/egeatilgan5757" },
+    { name: "Muhammed Ege Atılgan", role: "Etkinlik Koordinatörü", department: "Bilgisayar Mühendisliği", photo: "/photos/ege.png", linkedin: "https://www.linkedin.com/in/ege-at%C4%B1lgan-808840314/", github: "https://github.com/egeatilgan5757" },
     { name: "Seba Defa", role: "Etkinlik Koordinatörü", department: "Bilgisayar Mühendisliği", photo: "/photos/saba.png", linkedin: "https://www.linkedin.com/in/sabadefa/" },
     { name: "Emirhan Ertaş", role: "Sayman", department: "Bilgisayar Mühendisliği", photo: "/photos/emirhan.png", linkedin: "http://linkedin.com/in/emirertas"},
     { name: "Aydın Melih Yanıbol", role: "Yazılım Koordinatörü", department: "Bilgisayar Mühendisliği", photo: "/photos/melih.png", github: "https://github.com/MelihAydinYanibol/" },
@@ -808,7 +808,7 @@ function TakimimizPage() {
     { name: "Umut Yıldız", role: "Yazılım Koordinatörü", department: "Bilgisayar Mühendisliği", photo: "/photos/umut.png", linkedin: "https://www.linkedin.com/in/umut-y%C4%B1ld%C4%B1z-670b79378" },
     { name: "İrem Kaya", role: "Sosyal Medya ve Tasarım Koordinatörü", department: "Yazılım Mühendisliği", photo: "/photos/irem.png", linkedin: "https://www.linkedin.com/in/irem-kaya-13324a394?utm_source=share_via&utm_content=profile&utm_medium=member_ios" },
     { name: "Başak Atlı", role: "Sosyal Medya ve Tasarım Koordinatörü", department: "Yazılım Mühendisliği", linkedin: "#" },
-    { name: "Mehmet Karabulut", role: "Sosyal Medya ve Tasarım Koordinatörü", department: "Bilgisayar Mühendisliği", linkedin: "#" },
+    { name: "Mehmet Karabulut", role: "Sosyal Medya ve Tasarım Koordinatörü", department: "Bilgisayar Mühendisliği", photo: "/photos/karabulut.png", linkedin: "https://www.linkedin.com/in/mehmet-karabulut-26543633b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" },
   ];
   return (
     <div className="w-full max-w-6xl mx-auto px-4">
@@ -924,7 +924,7 @@ function OncekiEtkinliklerPage() {
   const clubInfo = {
     name: "Yazılım, Yapay Zeka ve Yaratıcılık Kulübü",
     description: "Yazılım, Yapay Zeka ve Yaratıcılık Kulübü, 2025 yılında \"teknolojiyi sadece tüketen değil, ona yön veren bir nesil\" olma vizyonuyla yola çıktı. Üniversite hayatımızın ilk yıllarında, teorik bilgileri pratiğe dökecek, birlikte hata yapıp birlikte öğrenecek bir topluluğun eksikliğini hissettik ve bu boşluğu doldurmak için bir araya geldik. Kurulduğumuz ilk günden beri amacımız; yazılımın teknik gücünü, yapay zekanın sınırsız potansiyelini ve yaratıcılığın özgürlüğünü tek bir çatı altında toplamak. 2025'ten bu yana, her geçen gün büyüyen ekibimizle kampüsümüzde teknoloji rüzgarları estirmeye devam ediyoruz.",
-    email: "yyyazilimkulubu@esenyurt.edu.tr",
+    email: "yapayzekaveyaraticilik@iesu.edu.tr",
     linkedin: "https://www.linkedin.com/company/yaz%C4%B1l%C4%B1m-yapay-zeka-ve-yarat%C4%B1c%C4%B1l%C4%B1k-toplulu%C4%9Fu/",
     instagram: "https://instagram.com/iesuyyyazilim",
   };
